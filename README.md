@@ -4,7 +4,7 @@ Introduction
 An AI agent is anything that can perceive its environment through sensors and act upon that environment through actuators in order to achieve a specific goal. A useful way to describe an agent is the PEAS framework — Performance measure, Environment, Actuators and Sensors. Agents are commonly classified as simple reflex agents (react only to the current input), goal-based agents (choose actions that achieve a defined goal) and utility-based agents (choose the action that maximises a measure of “goodness”). In this experiment, an AI Tourist Agent for India is built as a goal-based agent: given a tourist's goal (an enjoyable trip within their interest and budget), the agent perceives the tourist's preferences, reasons over a knowledge base of Indian destinations, plans a day-wise itinerary, and acts by presenting the recommended plan.
 Procedure
 ### Step 1: Import Required Libraries
-●	textwrap – used only to neatly wrap long destination descriptions to a fixed line width while printing the itinerary.
+●	textwrap – used only to neatly wrap long destination descriptions to a fixed line width while printing the itinerary..
 <img width="584" height="34" alt="image" src="https://github.com/user-attachments/assets/d7bd1246-346f-41f8-aec1-fddca7a8e120" />
 ### Step 2: Define the Agent's Knowledge Base (Destination Database)
 ●	The agent's environment knowledge is stored as a list of dictionaries, one per Indian destination.
